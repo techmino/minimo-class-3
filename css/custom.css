@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+@font-face{
+	font-family: nodu;
+	src:url(../nodu/nodu.eot);
+	src:url(../nodu/nodu.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 12px;
+}
+
+/*
+======================================
+			Global CSS
+=======================================
+*/
+
+.container{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+strong{
+    color: #8888889c;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+}
+ h1{
+    text-transform: capitalize;
+    font-size: 27px;
+    color: #333;
+    margin: 12px 0;
+}
+ p{
+    color: #8a8888;
+}
+ img{
+    width: 100%;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+} 
+
+/*
+======================================
+			Header
+=======================================
+*/
+
+header{
+    padding: 30px 0;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo a{}
+.logo a img{}
+
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{display: flex;justify-content: flex-end;}
+nav ul li{
+	list-style: none;
+}
+nav ul li a{
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    padding-left: 50px;
+    padding-top: 5px;
+    transition-duration: 0.4s;
+}
+nav ul li a:hover{
+	opacity: 0.5;
+}
+
+
+/*
+======================================
+			banner-section
+=======================================
+*/
+.banner-section{}
+.banner-section img{
+    width: 100%;
+    transition-duration: 0.4s;
+}
+
+.banner-section img:hover{
+	opacity: 0.6;
+}
+
+/*
+======================================
+			blog-section
+=======================================
+*/
+
+
+.blog-section{}
+.post-without-image{
+    padding: 0 80px;
+}
+.post-without-image a{
+    color: #8888889c;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.post-padd{padding: 0 50px;}
+
+.post-with-image{
+    width: 50%;
+    float: left;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.article-padd{
+	padding: 0 70px;
+}
+article{
+	width:33.33%;
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+article h1{
+	font-size: 18px;
+}
+
+article p{
+	font-size: 14px;
+}
+
+
+
+/*
+======================================
+			Footer Section
+=======================================
+*/
+
+footer{
+    background: #efefef;
+    padding: 50px 0 19px 0;
+}
+.footer-menu{
+    width: 50%;
+    float: left;
+}
+.footer-menu ul{}
+.footer-menu ul li{
+    float: left;
+    list-style: none;
+}
+.footer-menu ul li a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding-right: 20px;
+    transition-duration: 0.4s;
+}
+.footer-menu ul li a:hover{
+    opacity: 0.5;
+}
+
+.social-link{
+    width: 50%;
+    float: left;
+}
+.social-link ul{
+    text-align: right;
+}
+.social-link ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+.social-link ul li a{
+    color: #333;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    transition-duration: 0.4s;
+}
+.social-link ul li a:hover{
+    background: #333;
+    color: #efefefef;
+}
+1:00;
