@@ -1,0 +1,1 @@
+# minimo-class-3
